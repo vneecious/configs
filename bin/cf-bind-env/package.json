@@ -1,0 +1,13 @@
+{
+  "name": "cf-bind-env",
+  "description": "Generates a default-env.json file for the given service and service-key.",
+  "main": "index.js",
+  "bin": {
+    "cf-bind-env": "./index.js"
+  },
+  "author": "Vinícius Barrionuevo",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
